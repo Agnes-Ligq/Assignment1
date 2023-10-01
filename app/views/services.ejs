@@ -1,0 +1,61 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    </div>
+
+    <!-- Service Cards -->
+  <div class="row">
+    <!-- Service 1 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="/img/SQL.png" class="card-img-top" alt="Service 1 Image" style: width="100px"; height="250px">
+        <div class="card-body">
+          <h5 class="card-title">C#, Java, SQL Programming</h5>
+          <p class="card-text">
+            Provide Programming service such as C#, Java, SQL.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="/img/web.png" class="card-img-top" alt="Service 2 Image" style: width="100px"; height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">
+            Provide Web Development service.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="/img/android.png" class="card-img-top" alt="Service 3 Image" style: width="100px"; height="250px">
+        <div class="card-body">
+          <h5 class="card-title">Mobile Apps</h5>
+          <p class="card-text">
+            Provide Android Mobile Apps developing service.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   

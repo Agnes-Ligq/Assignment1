@@ -1,0 +1,66 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    </div>
+
+    <div class="row">
+     <!-- Project 1 -->
+     <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="/img/Database.png" class="card-img-top" alt="Project 1 Image" style: width="100px"; height="100px">
+        <div class="card-body">
+          <h5 class="card-title">Online Clothing Database</h5>
+          <p class="card-text">
+            This project is designed for a online clothing store which function is to implement inventory, shipping, and sale managemnt.
+          </p>
+          <a href="/project1-details" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="/img/deposit.png" class="card-img-top" alt="Project 2 Image" style: width="100px"; height="120px">
+        <div class="card-body">
+          <h5 class="card-title">Bank Interest Calculator</h5>
+          <p class="card-text">
+            This prject emulates interest calculation for saving, checking, and credit card system.
+          </p>
+          <a href="/project2-details" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <img src="/img/software_design.png" class="card-img-top" alt="Project 3 Image" style: width="100px"; height="120px">
+        <div class="card-body">
+          <h5 class="card-title">Software Design</h5>
+          <p class="card-text">
+            This project is a group work to finished a online health system design.
+          </p>
+          <a href="/project3-details" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
